@@ -14,5 +14,5 @@ Shared ownership of each frame so that many processors can view it
 Clear lifetime management (when the last process is done it auto-deletes)
 RAII and exception safety, so even if one step throws we dont leak or crash 
 
-Thats where this ARFrameHolder cmes in: its a class that wraps a cv::Mat or mock frame, managing it via shared_ptr and exposing it to other modules safely
+Thats where this ARFrameHolder comes in: its a class that wraps a cv::Mat or mock frame, managing it via shared_ptr and exposing it to other modules safely
 
