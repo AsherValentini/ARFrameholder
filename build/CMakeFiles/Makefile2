@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/asher/snap_chat_prep
+CMAKE_SOURCE_DIR = /home/asher/snap_chat_prep/ARFrameholder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/asher/snap_chat_prep/build
+CMAKE_BINARY_DIR = /home/asher/snap_chat_prep/ARFrameholder/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/ar_frame_holder.dir/clean
 CMakeFiles/ar_frame_holder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ar_frame_holder.dir/build.make CMakeFiles/ar_frame_holder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ar_frame_holder.dir/build.make CMakeFiles/ar_frame_holder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/asher/snap_chat_prep/build/CMakeFiles --progress-num=1,2,3 "Built target ar_frame_holder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/asher/snap_chat_prep/ARFrameholder/build/CMakeFiles --progress-num=1,2,3 "Built target ar_frame_holder"
 .PHONY : CMakeFiles/ar_frame_holder.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ar_frame_holder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/asher/snap_chat_prep/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/asher/snap_chat_prep/ARFrameholder/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ar_frame_holder.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/asher/snap_chat_prep/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/asher/snap_chat_prep/ARFrameholder/build/CMakeFiles 0
 .PHONY : CMakeFiles/ar_frame_holder.dir/rule
 
 # Convenience name for target.

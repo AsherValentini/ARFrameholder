@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/asher/snap_chat_prep
+CMAKE_SOURCE_DIR = /home/asher/snap_chat_prep/ARFrameholder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/asher/snap_chat_prep/build
+CMAKE_BINARY_DIR = /home/asher/snap_chat_prep/ARFrameholder/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ar_frame_holder.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/ar_frame_holder.dir/progress.make
 include CMakeFiles/ar_frame_holder.dir/flags.make
 
 CMakeFiles/ar_frame_holder.dir/src/main.cpp.o: CMakeFiles/ar_frame_holder.dir/flags.make
-CMakeFiles/ar_frame_holder.dir/src/main.cpp.o: /home/asher/snap_chat_prep/src/main.cpp
+CMakeFiles/ar_frame_holder.dir/src/main.cpp.o: /home/asher/snap_chat_prep/ARFrameholder/src/main.cpp
 CMakeFiles/ar_frame_holder.dir/src/main.cpp.o: CMakeFiles/ar_frame_holder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/asher/snap_chat_prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ar_frame_holder.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ar_frame_holder.dir/src/main.cpp.o -MF CMakeFiles/ar_frame_holder.dir/src/main.cpp.o.d -o CMakeFiles/ar_frame_holder.dir/src/main.cpp.o -c /home/asher/snap_chat_prep/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/asher/snap_chat_prep/ARFrameholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ar_frame_holder.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ar_frame_holder.dir/src/main.cpp.o -MF CMakeFiles/ar_frame_holder.dir/src/main.cpp.o.d -o CMakeFiles/ar_frame_holder.dir/src/main.cpp.o -c /home/asher/snap_chat_prep/ARFrameholder/src/main.cpp
 
 CMakeFiles/ar_frame_holder.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ar_frame_holder.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asher/snap_chat_prep/src/main.cpp > CMakeFiles/ar_frame_holder.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asher/snap_chat_prep/ARFrameholder/src/main.cpp > CMakeFiles/ar_frame_holder.dir/src/main.cpp.i
 
 CMakeFiles/ar_frame_holder.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ar_frame_holder.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asher/snap_chat_prep/src/main.cpp -o CMakeFiles/ar_frame_holder.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asher/snap_chat_prep/ARFrameholder/src/main.cpp -o CMakeFiles/ar_frame_holder.dir/src/main.cpp.s
 
 CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o: CMakeFiles/ar_frame_holder.dir/flags.make
-CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o: /home/asher/snap_chat_prep/src/ar_frame_holder.cpp
+CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o: /home/asher/snap_chat_prep/ARFrameholder/src/ar_frame_holder.cpp
 CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o: CMakeFiles/ar_frame_holder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/asher/snap_chat_prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o -MF CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o.d -o CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o -c /home/asher/snap_chat_prep/src/ar_frame_holder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/asher/snap_chat_prep/ARFrameholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o -MF CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o.d -o CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o -c /home/asher/snap_chat_prep/ARFrameholder/src/ar_frame_holder.cpp
 
 CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asher/snap_chat_prep/src/ar_frame_holder.cpp > CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asher/snap_chat_prep/ARFrameholder/src/ar_frame_holder.cpp > CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.i
 
 CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asher/snap_chat_prep/src/ar_frame_holder.cpp -o CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asher/snap_chat_prep/ARFrameholder/src/ar_frame_holder.cpp -o CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.s
 
 # Object files for target ar_frame_holder
 ar_frame_holder_OBJECTS = \
@@ -109,7 +109,7 @@ ar_frame_holder: CMakeFiles/ar_frame_holder.dir/src/main.cpp.o
 ar_frame_holder: CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o
 ar_frame_holder: CMakeFiles/ar_frame_holder.dir/build.make
 ar_frame_holder: CMakeFiles/ar_frame_holder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/asher/snap_chat_prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ar_frame_holder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/asher/snap_chat_prep/ARFrameholder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ar_frame_holder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_frame_holder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/ar_frame_holder.dir/clean:
 .PHONY : CMakeFiles/ar_frame_holder.dir/clean
 
 CMakeFiles/ar_frame_holder.dir/depend:
-	cd /home/asher/snap_chat_prep/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/asher/snap_chat_prep /home/asher/snap_chat_prep /home/asher/snap_chat_prep/build /home/asher/snap_chat_prep/build /home/asher/snap_chat_prep/build/CMakeFiles/ar_frame_holder.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/asher/snap_chat_prep/ARFrameholder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/asher/snap_chat_prep/ARFrameholder /home/asher/snap_chat_prep/ARFrameholder /home/asher/snap_chat_prep/ARFrameholder/build /home/asher/snap_chat_prep/ARFrameholder/build /home/asher/snap_chat_prep/ARFrameholder/build/CMakeFiles/ar_frame_holder.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ar_frame_holder.dir/depend
 

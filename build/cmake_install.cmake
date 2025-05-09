@@ -1,4 +1,4 @@
-# Install script for directory: /home/asher/snap_chat_prep
+# Install script for directory: /home/asher/snap_chat_prep/ARFrameholder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/asher/snap_chat_prep/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/asher/snap_chat_prep/ARFrameholder/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

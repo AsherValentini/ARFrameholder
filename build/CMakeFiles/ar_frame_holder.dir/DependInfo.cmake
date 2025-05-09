@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/asher/snap_chat_prep/src/ar_frame_holder.cpp" "CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o" "gcc" "CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o.d"
-  "/home/asher/snap_chat_prep/src/main.cpp" "CMakeFiles/ar_frame_holder.dir/src/main.cpp.o" "gcc" "CMakeFiles/ar_frame_holder.dir/src/main.cpp.o.d"
+  "/home/asher/snap_chat_prep/ARFrameholder/src/ar_frame_holder.cpp" "CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o" "gcc" "CMakeFiles/ar_frame_holder.dir/src/ar_frame_holder.cpp.o.d"
+  "/home/asher/snap_chat_prep/ARFrameholder/src/main.cpp" "CMakeFiles/ar_frame_holder.dir/src/main.cpp.o" "gcc" "CMakeFiles/ar_frame_holder.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
